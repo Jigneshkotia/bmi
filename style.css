@@ -87,6 +87,17 @@ label{
 }
 @media screen and (max-width: 480px) {
     body {
+        .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #545454;
+    border-radius: 3vh;
+    padding: 5vh;
+    backdrop-filter: blur(15px);
+    transition-duration: 1s;
+}
          .box:hover{
             transform: scale(1);
             box-shadow: none;
