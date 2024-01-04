@@ -86,8 +86,7 @@ label{
     margin-top: 10px;
     font-weight: bolder;
 }
-@media screen and (max-width: 600px) {
-    body {
+@media all and (max-width: 600px) {
         .box:hover{
             transform: scale(1);
             box-shadow: none;
@@ -100,5 +99,4 @@ label{
             font-size: 100%;
             padding: auto;
         }
-    }
   }
