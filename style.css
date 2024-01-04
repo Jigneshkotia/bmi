@@ -39,9 +39,6 @@ form{
     backdrop-filter: blur(15px);
     transition-duration: 1s;
 }
-.box:hover{
-    transform: scale(1.2);
-    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px  white, 0 0 100px white, 0 0 rgb(115, 115, 115);
 h1{
     font-size: 5vh;
     margin-bottom: 25px;
@@ -58,6 +55,10 @@ input{
     padding-left: 1vh;
     height: 3vh;
     color: black;
+}
+.box:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px  white, 0 0 100px white, 0 0 rgb(115, 115, 115);
 }
 .in{
     margin: 1vh;
@@ -85,20 +86,9 @@ label{
     margin-top: 10px;
     font-weight: bolder;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     body {
-        .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 0.5px solid #545454;
-    border-radius: 3vh;
-    padding: 5vh;
-    backdrop-filter: blur(15px);
-    transition-duration: 1s;
-}
-         .box:hover{
+        .box:hover{
             transform: scale(1);
             box-shadow: none;
         }
