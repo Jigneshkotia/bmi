@@ -39,6 +39,9 @@ form{
     backdrop-filter: blur(15px);
     transition-duration: 1s;
 }
+.box:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px  white, 0 0 100px white, 0 0 rgb(115, 115, 115);
 h1{
     font-size: 5vh;
     margin-bottom: 25px;
@@ -84,9 +87,17 @@ label{
 }
 @media screen and (min-width: 480px) {
     body {
-        .box:hover{
-            transform: scale(1.2);
-            box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px  white, 0 0 100px white, 0 0 rgb(115, 115, 115);
+         .box:hover{
+            transform: scale(1);
+            box-shadow: none;
+        }
+        #weight-guide{
+            font-size: 2vh;
+        }
+        input{
+            width: 20vw;
+            font-size: 100%;
+            padding: auto;
         }
     }
   }
